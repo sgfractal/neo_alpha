@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "videos",
+  "info": {
+    "singularName": "video",
+    "pluralName": "videos",
+    "displayName": "video"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "vidId": {
+      "type": "uid"
+    },
+    "gym": {
+      "type": "string"
+    },
+    "class": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    }
+  }
+}
